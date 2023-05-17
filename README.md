@@ -1,7 +1,7 @@
 <h1 align="center">Time Capsule Project</h1>
-<p align="center">
-  <img src="time-capsule.png" alt="Time Capsule Project">
-</p>
+ <div align="center">
+<img width="900" alt="Wallpaper" src="https://github.com/MatheusWAlvarenga/nlw-spacetime-web/assets/94935750/13f47ab4-786c-42a4-8a7c-7e071e0db69b">
+</div>
 
 <p align="center">The Time Capsule Project is a web application developed during Rocketseat's NLW week. It allows users to create their own time capsules and store memorable moments. The project was built using React, Next.JS, TailwindCSS, and TypeScript.</p>
 
@@ -24,7 +24,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/time-capsule-project.git
+   git clone https://github.com/MatheusWAlvarenga/nlw-spacetime-web
    ```
 
 2. Install the dependencies:
@@ -57,6 +57,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or suggestions, please email us at [email protected]
+For any inquiries or suggestions, please email [Matheus Alvarenga](mailto:matheuswalvarenga@gmail.com).
 
 Enjoy documenting and cherishing your memories with the Time Capsule Project!
