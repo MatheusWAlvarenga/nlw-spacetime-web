@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Time Capsule Project</h1>
+<p align="center">
+  <img src="time-capsule.png" alt="Time Capsule Project">
+</p>
 
-## Getting Started
+<p align="center">The Time Capsule Project is a web application developed during Rocketseat's NLW week. It allows users to create their own time capsules and store memorable moments. The project was built using React, Next.JS, TailwindCSS, and TypeScript.</p>
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Create personalized time capsules
+- Add photos, messages, and videos to capsules
+- Set a future date for capsule opening
+- Explore and revisit stored memories
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [React](https://reactjs.org/)
+- [Next.JS](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/username/time-capsule-project.git
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install the dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Start the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Access the application at `http://localhost:3000`.
+
+## Contributing
+
+Contributions are welcome! To contribute to the Time Capsule Project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b my-new-feature`.
+3. Make your changes and commit them: `git commit -am 'Add some feature'`.
+4. Push to the branch: `git push origin my-new-feature`.
+5. Submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any inquiries or suggestions, please email us at [email protected]
+
+Enjoy documenting and cherishing your memories with the Time Capsule Project!

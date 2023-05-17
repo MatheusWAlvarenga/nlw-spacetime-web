@@ -1,3 +1,38 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "@rocketseat/eslint-config/react"
+  ]
+  // "plugins": [
+  //   "filenames",
+  //   "jest",
+  //   "unused-imports"
+  // ],
+  // "env": {
+  //   "jest": true,
+  //   "node": true
+  // },
+  // "rules": {
+  //   "filenames/no-index": "error",
+  //   "filenames/match-exported": [
+  //     "error",
+  //     "kebab"
+  //   ],
+  //   "jest/no-disabled-tests": "error",
+  //   "jest/no-focused-tests": "error",
+  //   "jest/no-identical-title": "error",
+  //   "jest/valid-expect": "error",
+  //   "@typescript-eslint/no-explicit-any": "warn",
+  //   "no-unused-vars": "off", // or "@typescript-eslint/no-unused-vars": "off",
+  //   "unused-imports/no-unused-imports": "error",
+  //   "unused-imports/no-unused-vars": [
+  //     "warn",
+  //     {
+  //       "vars": "all",
+  //       "varsIgnorePattern": "^_",
+  //       "args": "after-used",
+  //       "argsIgnorePattern": "^_"
+  //     }
+  //   ]
+  // }
 }
