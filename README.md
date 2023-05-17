@@ -1,9 +1,9 @@
-<h1 align="center">Time Capsule Project</h1>
+<h1 align="center">Spacetime</h1>
  <div align="center">
 <img width="900" alt="Wallpaper" src="https://github.com/MatheusWAlvarenga/nlw-spacetime-web/assets/94935750/13f47ab4-786c-42a4-8a7c-7e071e0db69b">
 </div>
 
-<p align="center">The Time Capsule Project is a web application developed during Rocketseat's NLW week. It allows users to create their own time capsules and store memorable moments. The project was built using React, Next.JS, TailwindCSS, and TypeScript.</p>
+<p align="center">The Spacetime is a web application developed during Rocketseat's NLW week. It allows users to create their own time capsules and store memorable moments. The project was built using React, Next.JS, TailwindCSS, and TypeScript.</p>
 
 ## Features
 
@@ -43,7 +43,7 @@
 
 ## Contributing
 
-Contributions are welcome! To contribute to the Time Capsule Project, follow these steps:
+Contributions are welcome! To contribute to the Spacetime, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b my-new-feature`.
@@ -59,4 +59,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any inquiries or suggestions, please email [Matheus Alvarenga](mailto:matheuswalvarenga@gmail.com).
 
-Enjoy documenting and cherishing your memories with the Time Capsule Project!
+Enjoy documenting and cherishing your memories with the Spacetime!
