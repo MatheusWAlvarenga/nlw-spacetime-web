@@ -55,8 +55,10 @@ Contributions are welcome! To contribute to the Spacetime, follow these steps:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
+## Acknowledgments
 
-For any inquiries or suggestions, please email [Matheus Alvarenga](mailto:matheuswalvarenga@gmail.com).
+Special thanks to Rocketseat and the team behind NLW for providing the inspiration and guidance for this project.
 
-Enjoy documenting and cherishing your memories with the Spacetime!
+Feel free to explore the codebase and make it your own! If you have any questions or feedback, please don't hesitate to reach out. [Matheus Alvarenga](mailto:matheuswalvarenga@gmail.com)
+
+Enjoy preserving and revisiting your memories with the NLW Project.
