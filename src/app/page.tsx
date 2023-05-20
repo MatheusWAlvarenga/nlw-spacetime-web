@@ -1,52 +1,28 @@
-import { User } from 'lucide-react'
-import Image from 'next/image'
-
-
-import logo from '../assets/nlw-logo.svg'
+// components
+import { SignIn } from "@/components/SignIn";
+import { Copyright } from "@/components/Copyright";
+import { EmptyMemories } from "@/components/EmptyMemories";
+import { Hero } from "@/components/Hero";
 
 export default function Home() {
   return (
-    <main className="grid grid-cols-2 min-h-screen">
+    <main className="grid min-h-screen grid-cols-2">
       {/* left */}
-      <div className="relative flex flex-col items-start justify-between px-28 py-16 overflow-hidden border-r border-white/10 bg-[url(../assets/bg-stars.svg)] bg-cover">
+      <div className="relative flex flex-col items-start justify-between overflow-hidden border-r border-white/10 bg-[url(../assets/bg-stars.svg)] bg-cover px-28 py-16">
         {/* blur */}
-        <div className="absolute right-0 top-1/2 h-[288px] w-[526px] rounded-full -translate-y-1/2 translate-x-1/2 bg-purple-700 blur-full"></div>
+        <div className="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700 blur-full"></div>
 
         {/* stripes */}
-        <div className="absolute right-2 top-0 bottom-0 w-2 bg-stripes " />
-
-        {/* sign in */}
-        <a href="" className="flex items-center gap-3 text-left hover:text-gray-50 transition-colors">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
-            <User className='h-5 w-5 text-gray-500' />
-          </div>
-          <p className="text-sm leading-snug max-w-[140px]"><span className='underline'>Crie sua conta</span> e salve suas memórias!</p>
-        </a>
-
-        {/* Hero */}
-        <div className='space-y-5'>
-          <Image src={logo} alt="NLW Spacetime logo" />
-          <div className='max-w-[420px] space-y-1'>
-            <h1 className='text-[2.5rem] font-bold leading-tight text-gray-50'>Sua cápsula do tempo</h1>
-            <p className='text-lg leading-relaxed'>Colecione momentos marcantes da sua jornada e compartilhe (se quiser) com o mundo!</p>
-          </div>
-          <a
-            className='inline-block px-5 py-3 bg-green-500 rounded-full justify-center w-max text-gray-700 font-alt text-sm uppercase leading-none hover:bg-green-600'
-            href=''>CADASTRAR LEMBRANÇA</a>
-        </div>
-
-        {/* copyright */}
-        <div className='text-sm leading-relaxed text-gray-200'>Feito na NLW da <a className='underline hover:text-gray-100 transition-colors' href="https://rocketseat.com.br" target='_blank' rel='noreferrer'> Rocketseat</a> por <a className='underline hover:text-gray-100 transition-colors' href="https://www.mwbrtecnologia.com.br" target='_blank' rel='noreferrer'> Matheus Alvarenga</a></div>
-
-
+        <div className="absolute bottom-0 right-2 top-0 w-2 bg-stripes " />
+        <SignIn />
+        <Hero />
+        <Copyright />
       </div>
 
       {/* Right */}
       <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover p-16">
-        <div className="flex flex-1 items-center justify-center">
-          <p className="text-center leading-relaxed w-[360px]">Você ainda não registrou nenhuma lembrança, comece a <a className="underline hover:text-gray-50 transition-colors" href="">criar agora</a></p>
-        </div>
+        <EmptyMemories />
       </div>
     </main>
-  )
+  );
 }
