@@ -12,9 +12,6 @@ export async function GET(request: NextRequest) {
 
   const { token, expiresIn } = registerResponse.data;
 
-  console.log("token: ", token);
-  console.log("expiresIn: ", expiresIn);
-
   const expiresInFormattedInSeconds = checkExpiresIn(expiresIn);
 
   const redirectURL = new URL("/", request.url);

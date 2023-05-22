@@ -1,5 +1,6 @@
 // vendors
 import Image from "next/image";
+import Link from "next/link";
 // lib
 import { getUser } from "@/lib/auth";
 
@@ -17,9 +18,12 @@ export function Profile() {
       />
       <p className="max-w-[240px] text-sm leading-snug">
         {name}
-        <a href={"/"} className="block text-red-400 hover:text-red-300">
+        <Link
+          href="/api/auth/logout"
+          className="block text-red-400 hover:text-red-300"
+        >
           Logout
-        </a>
+        </Link>
       </p>
     </div>
   );
